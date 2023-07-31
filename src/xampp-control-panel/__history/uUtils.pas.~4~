@@ -1,0 +1,33 @@
+unit uUtils;
+
+interface
+
+procedure RunBrowser(url: String; apachePort: Integer; browserApp: String);
+
+implementation
+
+uses SysUtils, uTools, uApache, gnugettext;
+
+procedure RunBrowser(url: String; ApachePort: Integer; BrowserApp: String);
+var
+  App, Param: string;
+Begin
+  if ApachePort = 80 then
+    Param := 'http://127.0.0.1/'
+  else
+    Param := 'http://127.0.0.1:' + IntToStr(apachePort) + '/';
+
+  if BrowserApp <> '' then
+  begin
+    App := BrowserApp;
+    ExecuteFile(App, Param, '', SW_SHOW);
+    AddLog(Format(_('Executing "%s" "%s"'), [App, Param]), ltDebug);
+  end
+  else
+  begin
+    ExecuteFile(Param, '', '', SW_SHOW);
+    AddLog(Format(_('Executing "%s"'), [Param]), ltDebug);
+  end;
+End;
+
+end.

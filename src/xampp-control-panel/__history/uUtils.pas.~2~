@@ -1,0 +1,14 @@
+unit uUtils;
+
+interface
+
+procedure RunBrowser(url: String; browerApp: String);
+
+implementation
+
+procedure RunBrowser(url: String; browerApp: String);
+Begin
+
+End;
+
+end.

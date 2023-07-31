@@ -1,0 +1,262 @@
+11:29:22  [main] 	Initializing Control Panel
+11:29:22  [main] 	Windows Version: Windows 10 Pro  64-bit
+11:29:22  [main] 	XAMPP Version: ???
+11:29:22  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+11:29:22  [main] 	You are not running with administrator rights! This will work for
+11:29:22  [main] 	most application stuff but whenever you do something with services
+11:29:22  [main] 	there will be a security dialogue or things will break! So think 
+11:29:22  [main] 	about running this application with administrator rights!
+11:29:22  [main] 	XAMPP Installation Directory: "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+11:29:22  [main] 	Checking for prerequisites
+11:29:22  [main] 	All prerequisites found
+11:29:22  [main] 	Initializing Modules
+11:29:22  [Apache] 	Problem detected: Apache Not Found!
+11:29:22  [Apache] 	Disabling Apache buttons
+11:29:22  [Apache] 	Run this program from your XAMPP root directory!
+11:29:22  [Apache] 	Problem detected!
+11:29:22  [Apache] 	Port 80 in use by "D:\xampp\apache\bin\httpd.exe" with PID 6456!
+11:29:22  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:29:22  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:29:22  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:29:22  [Apache] 	Problem detected!
+11:29:22  [Apache] 	Port 443 in use by "D:\xampp\apache\bin\httpd.exe" with PID 6456!
+11:29:22  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:29:22  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:29:22  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:29:22  [mysql] 	Problem detected: MySQL Not Found!
+11:29:22  [mysql] 	Disabling MySQL buttons
+11:29:22  [mysql] 	Run this program from your XAMPP root directory!
+11:29:23  [mysql] 	Problem detected!
+11:29:23  [mysql] 	Port 3306 in use by ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+11:29:23  [mysql] 	MySQL WILL NOT start without the configured ports free!
+11:29:23  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+11:29:23  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+11:29:23  [filezilla] 	Problem detected: FileZilla Not Found!
+11:29:23  [filezilla] 	Disabling FileZilla buttons
+11:29:23  [filezilla] 	Run this program from your XAMPP root directory!
+11:29:23  [mercury] 	Problem detected: Mercury Not Found!
+11:29:23  [mercury] 	Disabling Mercury buttons
+11:29:23  [mercury] 	Run this program from your XAMPP root directory!
+11:29:23  [Tomcat] 	Problem detected: Tomcat Not Found!
+11:29:23  [Tomcat] 	Disabling Tomcat buttons
+11:29:23  [Tomcat] 	Run this program from your XAMPP root directory!
+11:29:23  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+11:29:23  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+11:29:23  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+11:29:23  [main] 	Starting Check-Timer
+11:29:23  [main] 	Control Panel Ready
+11:41:16  [main] 	Deinitializing Modules
+11:41:16  [main] 	Deinitializing Control Panel
+
+11:49:19  [main] 	Initializing Control Panel
+11:49:19  [main] 	Windows Version: Windows 10 Pro  64-bit
+11:49:19  [main] 	XAMPP Version: ???
+11:49:19  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+11:49:19  [main] 	You are not running with administrator rights! This will work for
+11:49:19  [main] 	most application stuff but whenever you do something with services
+11:49:19  [main] 	there will be a security dialogue or things will break! So think 
+11:49:19  [main] 	about running this application with administrator rights!
+11:49:19  [main] 	XAMPP Installation Directory: "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+11:49:19  [main] 	Checking for prerequisites
+11:49:19  [main] 	All prerequisites found
+11:49:19  [main] 	Initializing Modules
+11:49:19  [Apache] 	Problem detected: Apache Not Found!
+11:49:19  [Apache] 	Disabling Apache buttons
+11:49:19  [Apache] 	Run this program from your XAMPP root directory!
+11:49:19  [Apache] 	Problem detected!
+11:49:19  [Apache] 	Port 80 in use by "D:\xampp\apache\bin\httpd.exe" with PID 6456!
+11:49:19  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:49:19  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:49:19  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:49:19  [Apache] 	Problem detected!
+11:49:19  [Apache] 	Port 443 in use by "D:\xampp\apache\bin\httpd.exe" with PID 6456!
+11:49:19  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:49:19  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:49:19  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:49:19  [mysql] 	Problem detected: MySQL Not Found!
+11:49:19  [mysql] 	Disabling MySQL buttons
+11:49:19  [mysql] 	Run this program from your XAMPP root directory!
+11:49:19  [mysql] 	Problem detected!
+11:49:19  [mysql] 	Port 3306 in use by ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+11:49:19  [mysql] 	MySQL WILL NOT start without the configured ports free!
+11:49:19  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+11:49:19  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+11:49:19  [filezilla] 	Problem detected: FileZilla Not Found!
+11:49:19  [filezilla] 	Disabling FileZilla buttons
+11:49:19  [filezilla] 	Run this program from your XAMPP root directory!
+11:49:19  [mercury] 	Problem detected: Mercury Not Found!
+11:49:19  [mercury] 	Disabling Mercury buttons
+11:49:19  [mercury] 	Run this program from your XAMPP root directory!
+11:49:19  [Tomcat] 	Problem detected: Tomcat Not Found!
+11:49:19  [Tomcat] 	Disabling Tomcat buttons
+11:49:19  [Tomcat] 	Run this program from your XAMPP root directory!
+11:49:19  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+11:49:19  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+11:49:19  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+11:49:19  [main] 	Starting Check-Timer
+11:49:19  [main] 	Control Panel Ready
+11:49:56  [main] 	Deinitializing Modules
+11:49:56  [main] 	Deinitializing Control Panel
+
+19:30:35  [main] 	Initialisere Control Panel
+19:30:35  [main] 	Windows Version: Windows 10 Pro  64-bit
+19:30:35  [main] 	XAMPP Version: ???
+19:30:35  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+19:30:35  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+19:30:35  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+19:30:35  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+19:30:35  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+19:30:35  [main] 	XAMPP Installationsverzeichnis: "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+19:30:35  [main] 	Voraussetzungen werden geprüft
+19:30:36  [main] 	Alle Voraussetzungen sind erfüllt
+19:30:36  [main] 	Initialisiere Module
+19:30:36  [Apache] 	Problem festgestellt: Apache nicht gefunden!
+19:30:36  [Apache] 	Deaktiviere Apache Buttons
+19:30:36  [Apache] 	Starte das Programm aus deinem XAMPP Basisverzeichnis!
+19:30:36  [mysql] 	Problem festgestellt: MySQL nicht gefunden!
+19:30:36  [mysql] 	Deaktiviere MySQL Buttons
+19:30:36  [mysql] 	Starte das Programm aus deinem XAMPP Basisverzeichnis!
+19:30:36  [mysql] 	Problem festgestellt!
+19:30:36  [mysql] 	Port 3306 in Benutzung von ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+19:30:36  [mysql] 	MySQL wird NICHT starten, wenn die konfigurierten Ports nicht frei sind!
+19:30:36  [mysql] 	Die blockierende Anwendung muss deinstalliert/deaktiviert/rekonfiguriert werden oder
+19:30:36  [mysql] 	MySQL und das Control Panel müssen auf einen anderen Port zu lauschen
+19:30:36  [filezilla] 	Problem festgestellt: FileZilla nicht gefunden!
+19:30:36  [filezilla] 	Deaktiviere FileZilla Buttons
+19:30:36  [filezilla] 	Starte das Programm aus deinem XAMPP Basisverzeichnis!
+19:30:36  [mercury] 	Problem festgestellt: Mercury nicht gefunden!
+19:30:36  [mercury] 	Deaktiviere Mercury Buttons
+19:30:36  [mercury] 	Starte das Programm aus deinem XAMPP Basisverzeichnis!
+19:30:36  [Tomcat] 	Problem festgestellt: Tomcat nicht gefunden!
+19:30:36  [Tomcat] 	Deaktiviere Tomcat Buttons
+19:30:36  [Tomcat] 	Starte das Programm aus deinem XAMPP Basisverzeichnis!
+19:30:36  [Tomcat] 	Problem festgestellt: Benötigtes Script catalina_start.bat wurde nicht gefunden!
+19:30:36  [Tomcat] 	Problem festgestellt: Benötigtes Script catalina_stop.bat wurde nicht gefunden!
+19:30:36  [Tomcat] 	Problem festgestellt: Benötigtes Script catalina_service.bat wurde nicht gefunden!
+19:30:36  [main] 	Starte Check-Timer
+19:30:36  [main] 	Control Panel bereit
+19:31:13  [main] 	Deinitialisiere Module
+19:31:13  [main] 	Deinitialisiere Control Panel
+
+19:32:18  [main] 	Initializing Control Panel
+19:32:18  [main] 	Windows Version: Windows 10 Pro  64-bit
+19:32:18  [main] 	XAMPP Version: ???
+19:32:18  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+19:32:18  [main] 	You are not running with administrator rights! This will work for
+19:32:18  [main] 	la plupart des applications, mais chaque fois que vous faites quelque chose avec des services
+19:32:18  [main] 	il y aura un dialogue de sécurité ou les choses vont casser ! Alors pense
+19:32:18  [main] 	à exécuter cette application avec les permissions Administrateur!
+19:32:18  [main] 	XAMPP Installation Directory: "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+19:32:18  [main] 	Checking for prerequisites
+19:32:18  [main] 	All prerequisites found
+19:32:18  [main] 	Initializing Modules
+19:32:18  [Apache] 	Problème détecté : Apache introuvable!
+19:32:18  [Apache] 	Désactiver Apache Boutons
+19:32:18  [Apache] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:32:18  [mysql] 	Problème détecté : MySQL introuvable!
+19:32:18  [mysql] 	Désactiver MySQL Boutons
+19:32:18  [mysql] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:32:18  [mysql] 	Problème détecté!
+19:32:18  [mysql] 	Port 3306 est utilisé par ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+19:32:18  [mysql] 	MySQL ne peut pas démarrer tant que les ports ne sont pas libres!
+19:32:18  [mysql] 	Vous devez désinstaller/désactiver/reconfigurer l'application bloquante
+19:32:18  [mysql] 	ou configurer MySQL et le panneau de contrôle pour écouter sur un autre port
+19:32:18  [filezilla] 	Problème détecté : FileZilla introuvable!
+19:32:18  [filezilla] 	Désactiver FileZilla Boutons
+19:32:18  [filezilla] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:32:18  [mercury] 	Problème détecté : Mercury introuvable!
+19:32:18  [mercury] 	Désactiver Mercury Boutons
+19:32:18  [mercury] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:32:18  [Tomcat] 	Problème détecté : Tomcat introuvable!
+19:32:18  [Tomcat] 	Désactiver Tomcat Boutons
+19:32:18  [Tomcat] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:32:18  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+19:32:18  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+19:32:18  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+19:32:18  [main] 	Starting Check-Timer
+19:32:18  [main] 	Control Panel Ready
+19:35:05  [main] 	Deinitializing Modules
+19:35:05  [main] 	Deinitializing Control Panel
+
+19:35:08  [main] 	Initializing Control Panel
+19:35:08  [main] 	Windows Version: Windows 10 Pro  64-bit
+19:35:08  [main] 	XAMPP Version: ???
+19:35:08  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+19:35:08  [main] 	You are not running with administrator rights! This will work for
+19:35:08  [main] 	la plupart des applications, mais chaque fois que vous faites quelque chose avec des services
+19:35:08  [main] 	il y aura un dialogue de sécurité ou les choses vont casser ! Alors pense
+19:35:08  [main] 	à exécuter cette application avec les permissions Administrateur!
+19:35:08  [main] 	XAMPP Installation Directory: "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+19:35:08  [main] 	Checking for prerequisites
+19:35:08  [main] 	All prerequisites found
+19:35:08  [main] 	Initializing Modules
+19:35:08  [Apache] 	Problème détecté : Apache introuvable!
+19:35:08  [Apache] 	Désactiver Apache Boutons
+19:35:08  [Apache] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:35:08  [mysql] 	Problème détecté : MySQL introuvable!
+19:35:08  [mysql] 	Désactiver MySQL Boutons
+19:35:08  [mysql] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:35:08  [mysql] 	Problème détecté!
+19:35:08  [mysql] 	Port 3306 est utilisé par ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+19:35:08  [mysql] 	MySQL ne peut pas démarrer tant que les ports ne sont pas libres!
+19:35:08  [mysql] 	Vous devez désinstaller/désactiver/reconfigurer l'application bloquante
+19:35:08  [mysql] 	ou configurer MySQL et le panneau de contrôle pour écouter sur un autre port
+19:35:08  [filezilla] 	Problème détecté : FileZilla introuvable!
+19:35:08  [filezilla] 	Désactiver FileZilla Boutons
+19:35:08  [filezilla] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:35:08  [mercury] 	Problème détecté : Mercury introuvable!
+19:35:08  [mercury] 	Désactiver Mercury Boutons
+19:35:08  [mercury] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:35:08  [Tomcat] 	Problème détecté : Tomcat introuvable!
+19:35:08  [Tomcat] 	Désactiver Tomcat Boutons
+19:35:08  [Tomcat] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:35:08  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+19:35:08  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+19:35:08  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+19:35:08  [main] 	Starting Check-Timer
+19:35:08  [main] 	Control Panel Ready
+19:35:33  [main] 	Deinitializing Modules
+19:35:33  [main] 	Deinitializing Control Panel
+
+19:56:14  [main] 	Initialisation du Panneau de Contrôle
+19:56:14  [main] 	Version Windows : Windows 10 Pro  64-bit
+19:56:14  [main] 	XAMPP Version: ???
+19:56:14  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+19:56:14  [main] 	Vous n'êtes pas en cours d'exécution avec les droits d'administrateur ! Cela fonctionnera pour
+19:56:14  [main] 	la plupart des applications, mais chaque fois que vous faites quelque chose avec des services
+19:56:14  [main] 	il y aura un dialogue de sécurité ou les choses vont casser ! Alors pense 
+19:56:14  [main] 	sur l'exécution de cette application avec des droits d'administrateur !
+19:56:14  [main] 	Dossier d'installation XAMPP : "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+19:56:14  [main] 	Vérification des prérequis
+19:56:14  [main] 	Tous les prérequis sont trouvés
+19:56:14  [main] 	Initialisation des modules
+19:56:14  [Apache] 	Problème détecté : Apache introuvable!
+19:56:14  [Apache] 	Désactiver Apache Boutons
+19:56:14  [Apache] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:56:14  [mysql] 	Problème détecté : MySQL introuvable!
+19:56:14  [mysql] 	Désactiver MySQL Boutons
+19:56:14  [mysql] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:56:14  [mysql] 	Problème détecté!
+19:56:14  [mysql] 	Port 3306 est utilisé par ""C:\Program Files\MariaDB 10.10\bin\mysqld.exe" "--defaults-file=D:\MariaDB-Data\my.ini" "MariaDB""!
+19:56:14  [mysql] 	MySQL ne peut pas démarrer tant que les ports ne sont pas libres!
+19:56:14  [mysql] 	Vous devez désinstaller/désactiver/reconfigurer l'application bloquante
+19:56:14  [mysql] 	ou configurer MySQL et le panneau de contrôle pour écouter sur un autre port
+19:56:14  [filezilla] 	Problème détecté : FileZilla introuvable!
+19:56:14  [filezilla] 	Désactiver FileZilla Boutons
+19:56:14  [filezilla] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:56:14  [mercury] 	Problème détecté : Mercury introuvable!
+19:56:14  [mercury] 	Désactiver Mercury Boutons
+19:56:14  [mercury] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:56:14  [Tomcat] 	Problème détecté : Tomcat introuvable!
+19:56:15  [Tomcat] 	Désactiver Tomcat Boutons
+19:56:15  [Tomcat] 	Démarrer ce programme depuis le dossier d'installation de XAMPP!
+19:56:15  [Tomcat] 	Problème détecté : Outil requis catalina_start.bat introuvable !
+19:56:15  [Tomcat] 	Problème détecté : Outil requis catalina_stop.bat introuvable !
+19:56:15  [Tomcat] 	Problème détecté : Outil requis catalina_service.bat introuvable !
+19:56:15  [main] 	Démarrage Check-Timer
+19:56:15  [main] 	Panneau de Contrôle prêt
+19:56:50  [main] 	Exécution "c:\users\cyberbox\downloads\xampp-windows-x64-8.2.4-0-vs16\xampp\src\xampp-control-panel\"
+19:56:54  [main] 	Exécution "services.msc"
+20:00:18  [main] 	Désinitialisation des modules
+20:00:18  [main] 	Désinitialisation du panneau de contrôle
+
