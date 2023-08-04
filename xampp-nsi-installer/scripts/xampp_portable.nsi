@@ -11,15 +11,15 @@
   ;;;XPStyle on
   ; HM NIS Edit Wizard helper defines
   !define PRODUCT_NAME "XAMPP School"
-  !define PRODUCT_VERSION "1.0.0"
+  !define PRODUCT_VERSION "1.0.1"
   !define PRODUCT_PUBLISHER "Mohamed Anis MANI, ApacheFriends"
   !define PRODUCT_WEB_SITE "http://www.apachefriends.org"
-  !define WORK_DIR "D:\xampp-8.2.4"
-  !define WORK_XAMPP_DIR "${WORK_DIR}\xampp"
+  !define WORK_DIR "D:\xampp-portable"
+  !define WORK_XAMPP_DIR "${WORK_DIR}\xampp-8.2.4"
   Caption "${PRODUCT_NAME} ${PRODUCT_VERSION} Win64"
   InstallDirRegKey HKLM "Software\xampp-school" "Install_Dir"
   Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-  OutFile "${WORK_DIR}\xampp-school-portable-win64-${PRODUCT_VERSION}-VC16-installer.exe"
+  OutFile "${WORK_DIR}\installer\xampp-school-portable-win64-${PRODUCT_VERSION}-VC16-installer.exe"
   RequestExecutionLevel admin
   ;;;BGGradient f87820 FFFFFF FFFFFF
   InstallColors FF8080 000030
@@ -117,15 +117,15 @@ Function .onInit
                ExecShell "open" "https://aka.ms/vs/15/release/vc_redist.x64.exe"
                GOTO MsPageOut
                lang_de:
-               MessageBox MB_YESNO "Warnung: XAMPP (PHP) benötigt das Microsoft C++ 2017 runtime libraries! Die Microsoft Seite für diesen Download jetzt öffnen?" IDNO MsPageOut
-               ; MessageBox MB_YESNO "MS C++ 2008 runtime Installation fehlt auf Ihrem Rechner! Diese wird für PHP benötigt. Die Microsoft Seite für diesen Download jetzt öffnen?" IDNO MsPageOut
+               MessageBox MB_YESNO "Warnung: XAMPP (PHP) benï¿½tigt das Microsoft C++ 2017 runtime libraries! Die Microsoft Seite fï¿½r diesen Download jetzt ï¿½ffnen?" IDNO MsPageOut
+               ; MessageBox MB_YESNO "MS C++ 2008 runtime Installation fehlt auf Ihrem Rechner! Diese wird fï¿½r PHP benï¿½tigt. Die Microsoft Seite fï¿½r diesen Download jetzt ï¿½ffnen?" IDNO MsPageOut
                ExecShell "open" "https://aka.ms/vs/15/release/vc_redist.x64.exe"
         MsPageOut:
                ; StrCmp $LANGUAGE "1031" lang_de2
                ; MessageBox MB_YESNO "Perhaps XAMPP do not work without the MS VC++ 2008 runtime library. Still go on with the XAMPP installation?" IDNO GoOut
                ; GOTO init_end
                ; lang_de2:
-               ; MessageBox MB_YESNO "Ohne die MS VC++ 2008 Runtime Bibliothek könnte XAMPP nicht funktionieren! Die XAMPP Installation trotzdem weiterführen?" IDNO GoOut
+               ; MessageBox MB_YESNO "Ohne die MS VC++ 2008 Runtime Bibliothek kï¿½nnte XAMPP nicht funktionieren! Die XAMPP Installation trotzdem weiterfï¿½hren?" IDNO GoOut
                ; GOTO init_end
                ; GoOut:
                ; Abort "Exit by user."
@@ -134,7 +134,7 @@ Function .onInit
                 StrCmp $LANGUAGE "1031" detection_de
                 GOTO non_de
                 detection_de:
-                MessageBox MB_OK "Das Paket ist Wechseldatenträger geeignet. Alle Konfigurationsdateien haben relative Pfade."
+                MessageBox MB_OK "Das Paket ist Wechseldatentrï¿½ger geeignet. Alle Konfigurationsdateien haben relative Pfade."
                 GOTO usb_end
                 non_de:
                 MessageBox MB_OK "This package is removable device compatible. All configuration files have relative paths."
@@ -210,14 +210,13 @@ File "${WORK_XAMPP_DIR}\passwords.txt"
 File "${WORK_XAMPP_DIR}\readme_de.txt"
 File "${WORK_XAMPP_DIR}\test_php.bat"
 
-SetOutPath "$INSTDIR\cgi-bin"
-File /r "${WORK_XAMPP_DIR}\cgi-bin\*.*"
+
+SetOutPath "$INSTDIR\dbdump"
+File /r "${WORK_XAMPP_DIR}\dbdump\*.*"
 SetOutPath "$INSTDIR\htdocs"
 File /r "${WORK_XAMPP_DIR}\htdocs\*.*"
 SetOutPath "$INSTDIR\install"
 File /r "${WORK_XAMPP_DIR}\install\*.*"
-SetOutPath "$INSTDIR\licenses"
-File /r "${WORK_XAMPP_DIR}\licenses\*.*"
 SetOutPath "$INSTDIR\locale"
 File /r "${WORK_XAMPP_DIR}\locale\*.*"
 SetOutPath "$INSTDIR\tmp"
@@ -286,7 +285,7 @@ StrCmp $0 "0" php_done
               MessageBox MB_OK "Installation failed (php.exe). Perhaps you have to install the Microsoft Visual C++ 2008 Redistributable package. After that please execute the setup_xampp.bat in the xampp folder manually."
               GOTO php_done
         lang_de:
-              MessageBox MB_OK "Installation gescheitert. Vielleicht sollten Sie das Microsoft Visual C++ 2008 Redistributable Paket auf Ihrem System installieren. Bitte danach die setup_xampp.bat manuell noch einmal ausführen."
+              MessageBox MB_OK "Installation gescheitert. Vielleicht sollten Sie das Microsoft Visual C++ 2008 Redistributable Paket auf Ihrem System installieren. Bitte danach die setup_xampp.bat manuell noch einmal ausfï¿½hren."
 php_done:
 SectionEnd
 
